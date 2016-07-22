@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "HearthArena Translator",
+  "description": "HearthArena Translator:en to cn",
+  "version": "1.0",
+
+  
+   "content_scripts": [
+    {
+      "matches": ["http://www.heartharena.com/tierlist*"],
+      "js": [ "jquery-3.1.0.min.js","myscript.js"],
+      "run_at":"document_start"
+    }
+  ]
+  
+}
